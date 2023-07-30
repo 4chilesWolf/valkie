@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Megrim&family=Raleway&family=Poppins&family=Didact+Gothic&display=swap);
+
+.containerv {
+    width: 550px;
+    margin: 50px auto;
+    background: #0f0f0f;
+    box-shadow: 0 0 10px 0 #000;
+    position:relative;
+    overflow: hidden;
+}
+
+.containerimgv {
+    background:url(https://media0.giphy.com/media/LrEuHhGTir0gtU0jVH/giphy.gif?cid=6c09b952m6hs7xwg7yzkhtu65n2exrxfk2awjfy8nkldz230&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g);
+    width: 100%;
+    background-image: cover;
+    overflow: hidden;
+    height: 200px
+}
+
+.titlev {
+    background-color: transparent;
+    backdrop-filter: blur(2px);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Megrim', cursive;
+    color: white;
+    border: 1px solid white;
+    padding: 20px 0;
+    margin: 100px auto;
+    width: 55%;
+    text-align: center;
+    position: relative;
+    top: 35px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.textcontainerv {
+    color: #f8f8ff;
+    font-size: 12px;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 1;
+}
+
+.hr1 {
+    height:1px;
+    border: none;
+    background-color: #fff;
+    width: 92%;
+    margin: auto;
+    box-shadow: 0 0 2px black;
+}
+
+.hist {
+    background-color: transparent;
+    width: 500px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 11px;
+    color:#fbfbf8;
+    text-align: justify;
+    padding: 20px 0;
+}
+
+.containerv::before {
+    content: '';
+    display: block;
+    width: 410px;
+    height: 680px;
+    background-image:url(https://images-ext-2.discordapp.net/external/hcrt_gkvYytTl0deYNxddHsImtr2uQEeidrYx7hLCGw/https/i.pinimg.com/564x/8c/00/b5/8c00b5e7ff914ac5ad327f71067c652a.jpg?width=387&height=670);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 11%
+}
