@@ -54,14 +54,13 @@
     box-shadow: 0 0 2px black;
 }
 
-.hist {
-    background-color: transparent;
-    width: 500px;
-    font-family: 'Poppins',sans-serif;
-    font-size: 11px;
-    color:#fbfbf8;
-    text-align: justify;
-    padding: 20px 0;
+input{
+    display: none;
+
+    &:checked ~ .f-p-container, &:checked ~ .f-p-close{
+        display: block;
+        opacity: 100%;
+    }
 }
 
 .containerv::before {
