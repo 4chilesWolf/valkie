@@ -19,7 +19,7 @@
 }
 
 .containerimgv {
-    background: var(--valkimg)
+    background: var(--valkimg);
     width: 100%;
     background-image: cover;
     overflow: hidden;
