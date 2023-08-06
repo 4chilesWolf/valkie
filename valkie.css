@@ -10,7 +10,7 @@
 }
 
 .containerimgv {
-    background:url(https://i.imgur.com/uxscuav.png);
+    background: var(--valkimg)
     width: 100%;
     background-image: cover;
     overflow: hidden;
