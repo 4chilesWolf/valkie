@@ -63,15 +63,6 @@
     box-shadow: 0 0 2px black;
 }
 
-input{
-    display: none;
-
-    &:checked ~ .f-p-container, &:checked ~ .f-p-close{
-        display: block;
-        opacity: 100%;
-    }
-}
-
 .containerv::before {
     content: '';
     display: block;
